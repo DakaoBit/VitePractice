@@ -11,8 +11,14 @@ import Layout from "./views/Layout.vue";
 </template>
 
 <style>
+#app{
+  background-color:#4d4d4d ;
+    max-height: 1080px;
+}
+
 .container{
   max-width: 640px;
+  max-height: 1080px;
   margin-right: auto;
   margin-left: auto;
 }
