@@ -1,5 +1,5 @@
 <template>
- <a-list :style="{ width:'100%' }" item-layout="horizontal" :data-source="data">
+ <a-list :style="{ width:'100%', maxheight:'100%' }" item-layout="horizontal" :data-source="data">
       <template #renderItem="{ item }">
         <a-list-item>
           <a-list-item-meta
